@@ -1,0 +1,43 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link href="style.css" type="text/css" rel="stylesheet" media="all">
+<title>Mociutes kojines</title>
+</head>
+<body>
+    <link href='https://fonts.googleapis.com/css?family=Caveat Brush' rel='stylesheet'>
+    <div class="container">
+    <div id="logo">
+    </div>
+    <h2>mociutes kojines kiekvienam</h2> 
+      
+    <form id="uzsakymas" method="POST" action="thankyou.php" name="uzsakymai">
+
+    <p> Prašome užpildyti visus laukelius </p> 
+    
+    
+         <label for="vardas">Vardas</label> 
+         <input type="text" name="vardas" placeholder="Jusu  vardas" required> 
+         
+         <label for="Pavarde">Pavarde</label>     
+         <input type="text" name="pavarde" placeholder="Jusu pavarde" required> 
+    
+         <label for="El. paštas">El. paštas</label>  
+         <input type="text" name="email" placeholder="Jusu el. paštas" required> 
+     
+         <label for="Telefonas">Telefonas</label> 
+         <input type="text" name="telefonas" placeholder="86XXX" required> 
+
+ 	<label for="Kiekis">Kiekis</label>
+ 	<input type="number" name="kiekis" min="1" max="99">         
+	
+	<label for="zinute">Pageidavimai</label>
+        <textarea name="zinute" placeholder="Jusu pageidavimai"></textarea> 
+
+        <input name="submit" type="submit" value="Pateikti" />
+         </form>
+    
+    </div>
+    
+</body>
+</html>

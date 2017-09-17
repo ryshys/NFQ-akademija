@@ -1,0 +1,89 @@
+body {
+	background: url(/bluestripes.png) repeat;
+}
+
+.container {
+	position: relative;
+	top: 100px;
+	max-width: 40%;
+	max-width: 1000px;
+	margin: auto;
+	background: #fff6e9;
+	border-radius: 5px;
+
+}
+
+.box {
+	position: absolute;
+	top: 120px;
+	background: #fff6e9;
+	border-radius: 6px;
+}
+
+
+#logo {
+	block: in-line;
+	position: absolute;
+	left: 50px; 
+	top: -80px;
+	background: no-repeat top center;
+	content: url(https://i.imgur.com/HGtdypk.png) 
+}
+
+
+h1 {
+	position: absolute;
+	left: 25%;
+	top: 25%; 
+}
+
+
+h2 {
+	block: in-line;
+	position: absolute;
+	font-family: 'Caveat Brush';font-size: 35px;
+	left: 200px; 
+	top: -120px;
+}
+
+
+
+#uzsakymas {
+	width: 400px;
+	background-color: #ffffff;
+	margin: 0px auto;
+	padding: 40px 40px 35px 40px;
+	border-radius: 0 0 3px 3px;
+	border-radius: 3px;
+	-moz-border-radius: 5px;
+}
+
+input[type="text"] {
+	width: 400px;
+	padding: 5px 0px 5px 10px;
+	margin: 1px 0px 20px 0px
+}
+
+input[type="number"] {
+	width: 400px;
+	padding: 5px 0px 5px 10px;
+	margin: 1px 0px 20px 0px
+}
+
+input[type="submit"]{
+	display: inline;
+	width: 410px;
+	font-size: 14px;
+	background-color:#999;
+	color: #fff;
+	padding: 5px;
+	margin: 10px 0px 0px 0px;
+	border-radius: 3px;
+	-moz-border-radius: 5px;
+}
+
+textarea {
+	width: 400px;
+	font-size: 14px;
+	padding: 5px 0px 5px 10px;
+}
